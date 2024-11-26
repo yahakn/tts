@@ -8,7 +8,7 @@ from langchain.prompts import ChatPromptTemplate, HumanMessagePromptTemplate
 
 # === LangChain Settings ===
 # LangChain LLM (Large Language Model)
-llm = ChatGroq(model="mixtral-8x7b-32768", temperature=0.7, groq_api_key="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")
+llm = ChatGroq(model="mixtral-8x7b-32768", temperature=0.7, groq_api_key="key_here")
 
 # Prompt Template for LangChain
 prompt_template = ChatPromptTemplate.from_messages([
