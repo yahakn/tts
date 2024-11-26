@@ -10,7 +10,7 @@ from langchain.prompts import ChatPromptTemplate, HumanMessagePromptTemplate
 torch.cuda.empty_cache()
 
 # === LangChain Model Settings ===
-llm = ChatGroq(model="mixtral-8x7b-32768", temperature=0.3, groq_api_key="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")
+llm = ChatGroq(model="mixtral-8x7b-32768", temperature=0.3, groq_api_key="key_here")
 
 # === Device Settings ===
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
